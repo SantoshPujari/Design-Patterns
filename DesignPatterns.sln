@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.CreditCard", "Facto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory.Dialog", "Factory.Dialog\Factory.Dialog.csproj", "{86E14CDE-401F-44F4-972D-CCD4E540EFAC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract.Factory", "Abstract.Factory", "{AFE229E4-06AA-4E67-ACBA-983BE89A09F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract.Structural", "Abstract.Structural\Abstract.Structural.csproj", "{002E8C6F-7852-4B88-9D1A-B5126B86321C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{86E14CDE-401F-44F4-972D-CCD4E540EFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86E14CDE-401F-44F4-972D-CCD4E540EFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86E14CDE-401F-44F4-972D-CCD4E540EFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002E8C6F-7852-4B88-9D1A-B5126B86321C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002E8C6F-7852-4B88-9D1A-B5126B86321C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002E8C6F-7852-4B88-9D1A-B5126B86321C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002E8C6F-7852-4B88-9D1A-B5126B86321C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +69,8 @@ Global
 		{4BEE7117-6AE0-4906-A29A-2498D1642654} = {0D4A6E7B-1229-4198-9818-5227BAEC3699}
 		{C61D9789-0FDD-46D6-8635-7D8AAAE7C408} = {0D4A6E7B-1229-4198-9818-5227BAEC3699}
 		{86E14CDE-401F-44F4-972D-CCD4E540EFAC} = {0D4A6E7B-1229-4198-9818-5227BAEC3699}
+		{AFE229E4-06AA-4E67-ACBA-983BE89A09F2} = {DBE6644B-3FF9-45B6-8E7B-E038765119D6}
+		{002E8C6F-7852-4B88-9D1A-B5126B86321C} = {AFE229E4-06AA-4E67-ACBA-983BE89A09F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACBFFE23-5C9E-4435-B6DF-EDDB86611C2D}
