@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{002E8C6F-7852-4B88-9D1A-B5126B86321C}</ProjectGuid>
+    <ProjectGuid>{E838B4D3-182B-4B7E-B88B-51A3F4375A4B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Abstract.Structural</RootNamespace>
-    <AssemblyName>Abstract.Structural</AssemblyName>
+    <RootNamespace>Abstract.RealWorld</RootNamespace>
+    <AssemblyName>Abstract.RealWorld</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Abstruct Factory.cd" />
+    <None Include="AbstractFactory.cd" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
